@@ -7,7 +7,18 @@
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0
+    },
+    "LocalNotifications":{
+      "smallIcon": "ic_stat_ibus_driver_logo",
+      "iconColor": "#FF0000",
+      "sound":""
     }
   },
-  "cordova": {}
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.1.7:8101",
+    "cleartext": true,
+    "originalUrl": "http://192.168.1.7:8100",
+    "originalCleartext": true
+  }
 }

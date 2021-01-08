@@ -1,21 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Features App
+      Features App Notifications
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <ion-button>LETS GO</ion-button>
-    <p>Start with Ionics <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+
+  <ion-button (click)="scheduleBasic()" expand="block" fill="clear">Simple Notification</ion-button>
+  
+  <ion-button (click)="scheduleAdvanced()" expand="block" fill="clear">Advanced Notification</ion-button>
 </ion-content>
