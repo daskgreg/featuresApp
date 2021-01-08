@@ -1,0 +1,7 @@
+{
+  "name": "features-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
